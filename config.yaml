@@ -1,13 +1,11 @@
-# Baseline (deliberately suboptimal) config for Short Game's live demo.
-# The orchestrator will mutate fields in-place and trigger restarts.
-dtype: fp32
-batch_size: 8
-num_workers: 0
-pin_memory: false
-persistent_workers: false
 amp: false
 attn_impl: sdpa
+batch_size: 64
+data_root: /workspace/data
+dtype: fp32
 img_size: 224
 lr: 0.0003
+num_workers: 0
+persistent_workers: false
+pin_memory: false
 total_steps: 600
-data_root: /workspace/data
