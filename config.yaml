@@ -1,11 +1,11 @@
-amp: true
+amp: false
 attn_impl: sdpa
 batch_size: 8
 data_root: /workspace/data
-dtype: bf16
+dtype: fp32
 img_size: 224
 lr: 0.0003
 num_workers: 0
 persistent_workers: false
 pin_memory: false
-total_steps: 400
+total_steps: 600
