@@ -8,4 +8,4 @@ lr: 0.0003
 num_workers: 0
 persistent_workers: false
 pin_memory: false
-total_steps: 600
+total_steps: 120
